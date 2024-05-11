@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1>Html Form</h1>
+        <form action="" method="post">
+            <fieldset>
+                <Legend>Sign Up</Legend>
+                Username:<br>
+                <input type="text" name="username" placeholder="Enter your username">
+                <br><br>
+                Email: <br>
+                <input type="email" name="email" placeholder="Enter your email">
+                <br><br>
+                Password: <br>
+                <input type="password" name="password" placeholder="Enter your password">
+                <br><br>
+                Confirm Password: <br>
+                <input type="password" name="c_password" placeholder="Confirm your username">
+                <br><br>
+                Gender: <br>
+                <div class="inner-flex">
+                    <div class="inner-input">
+                        <p>Male</p>
+                        <input type="radio" name="gender" value="male"> 
+                    </div>
+                    <div class="inner-input">
+                        <p>Female</p>
+                        <input type="radio" name="gender" value="female"> 
+                    </div>
+                </div><br>
+                Hobbies: <br>
+                <div class="inner-flex">
+                   <div class="inner-input">
+                        <input type="checkbox" value="read" name="hobby">
+                        <p>Read</p>
+                   </div>
+                   <div class="inner-input">
+                        <input type="checkbox" value="copy" name="hobby">
+                        <p>Copy</p>
+                   </div>
+                   <div class="inner-input">
+                        <input type="checkbox" value="sleep" name="hobby">
+                        <p>Sleep</p>
+                   </div>
+                </div><br>
+                Country: <br>
+                <select name="country" id="country">
+                    <option value="nepal">Nepal</option>
+                    <option value="india">India</option>
+                    <option value="bhutan">Bhutan</option>
+                    <option value="bangladesh">Bangladesh</option>
+                    <option value="pakistan">Pakistan</option>
+                </select>
+                <br><br>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
